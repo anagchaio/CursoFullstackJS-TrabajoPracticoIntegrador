@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Proyecto Codo a Codo - Integracion</title>
+  <link rel='stylesheet' href="http://fonts.googleapis.com/css?family=Open+Sans" type='text/css'>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  
+  <script src="header.js"></script>
+  
+  <main>
+    <div id="banner" class="container-fluid">
+      <div class="banner_info">
+        <div class="banner_elements">
+          <h3 class="h4 font-weight-bold">Conf Bs As</h3>
+          <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+            experiencia
+            de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otro
+            estudiantes de
+            Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+          </p><br>
+          <button type="button" class="btn btn-success btn-lg" onclick= >Comprar tickets</button>
+          <button type="button" class="btn btn-outline-light btn-lg">Quiero ser orador</button>
+        </div>
+      </div>
+      <image id="img_banner" src="./images/hawaii.jpg" alt="Ciudad de buenosaires"></image>
+    </div>
+
+    <div id="cards" class="container-fluid">
+      <div class="row justify-content-center mt-3">
+        <h6>CONOCE A LOS</h6>
+      </div>
+      <div class="row justify-content-center">
+        <h1 class="font-weight-bold">ORADORES</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./images/steve.jpg" class="card-img-top" alt="Imagen de Steve Jobs">
+            <div class="card-body">
+              <a href="#" class="btn btn-warning">JavaScript</a>
+              <a href="#" class="btn btn-info">React</a>
+              <h4 class="card-title font-weight-bold">Steve Jobs</h4>
+              <p class="card-text">Empresario, diseñador industrial, magnate empresarial, propietario de medios e
+                inversor estadounidense.
+                Fue cofundador y presidente ejecutivo de Apple y máximo accionista individual de The Walt Disney
+                Company.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./images/bill.jpg" class="card-img-top" alt="Imagen de Bill Gates">
+            <div class="card-body">
+              <a href="#" class="p btn btn-warning">JavaScript</a>
+              <a href="#" class="p btn btn-info">React</a>
+              <h4 class="card-title font-weight-bold">Bill Gates</h4>
+              <p class="card-text">Empresario, informático y filántropo estadounidense, conocido por haber creado y
+                fundado junto con Paul Allen,
+                la empresa Microsoft, y el sistema operativo para computadoras Windows.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./images/ada.jpeg" class="card-img-top" alt="Imagen de Ada Lovelace">
+            <div class="card-body">
+              <a href="#" class="p btn btn-secondary">Negocios</a>
+              <a href="#" class="p btn btn-danger">Startups</a>
+              <h4 class="card-title font-weight-bold">Ada Lovelace</h4>
+              <p class="card-text">Matemática y escritora británica, célebre sobre todo por su trabajo acerca de la
+                computadora mecánica de uso
+                general de Charles Babbage, la denominada máquina analítica.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="beach" class="container-fluid">
+      <div class="row mt-lg-5">
+        <div class="col">
+          <image id="img_beach" src="./images/honolulu.jpg" alt="Ciudad de honolulu"></image>
+        </div>
+        <div class="col bg-dark text-white" id="img_beach_info">
+          <h3 class="h3 font-weight-bold mt-3">Bs As - Octubre</h3>
+          <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
+            honolulu
+            es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de honolulu se refiere
+            al
+            área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de honolulu han formado una
+            ciudad-condado
+            consolidada que cubre toda la ciudad (aproximandamente 600 km² de superficie).</p>
+          <button class="btn btn-outline-light">Conocé más</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="inscripcion" class="container-fluid">
+      <div class="row justify-content-center mt-4">
+        <h6>CONVIÉRTETE EN UN</h6>
+      </div>
+      <div class="row justify-content-center">
+        <h1 class="font-weight-bold">ORADOR</h1>
+      </div>
+      <div class="row justify-content-center">
+        <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+      </div>
+      <form>
+        <div class="form-row justify-content-center">
+          <div class="col"></div>
+          <div class="col">
+            <input type="text" id="name" placeholder="Nombre" class="form-control">
+          </div>
+          <div class="col">
+            <input type="text" id="lastname" placeholder="Apellido" class="form-control">
+          </div>
+          <div class="col"></div>
+        </div>
+        <div class="form-row justify-content-center">
+          <div class="col-3"></div>
+          <div class="col">
+            <textarea type="text" id="contenido" placeholder="Sobre qué quieres haber?"
+              class="form-control form-control-lg mt-3"></textarea>
+            <label class="text-secondary">Recuerda incluir un titulo para tu charla</label><br>
+
+            <button type="submit" class="btn btn-success form_button mt-3 mb-3">Enviar</button>
+          </div>
+          <div class="col-3"></div>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <script src="footer.js"></script>
+
+</body>
+</html>
