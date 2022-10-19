@@ -7,7 +7,7 @@ document.write ('\
       </a> \
     </li> \
     <li class="nav-item  my-auto mx-lg-2">\
-      <a href="#" class="nav-link h3 text-white">Conf Bs As</a>\
+      <a href="home.html" class="nav-link h3 text-white">Conf Bs As</a>\
     </li> \
     <li class="nav-item  my-auto mx-auto"></li>\
     </li>\
@@ -15,16 +15,16 @@ document.write ('\
       <a href="#" class="nav-link">La conferencia</a>\
     </li>\
     <li class="nav-item  my-auto mx-lg-2">\
-      <a href="#" class="nav-link">Los oradores</a>\
+      <a href="#cards" class="nav-link">Los oradores</a>\
     </li>\
     <li class="nav-item  my-auto mx-lg-2">\
-      <a href="#" class="nav-link">El lugar y la fecha</a>\
+      <a href="#beach" class="nav-link">El lugar y la fecha</a>\
     </li>\
     <li class="nav-item  my-auto mx-lg-2">\
-      <a href="#" class="nav-link">Conviértete en orador</a>\
+      <a href="#registration" class="nav-link">Conviértete en orador</a>\
     </li>\
     <li class="nav-item  my-auto mx-lg-2 mr-lg-5">\
-      <a href="#" id="link_comprarTickets" class="nav-link">Comprar Tickets</a>\
+      <a href="ticket.html" id="link_comprarTickets" class="nav-link">Comprar Tickets</a>\
     </li>\
   </ul>\
 </header>\
