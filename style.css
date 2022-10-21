@@ -127,4 +127,24 @@ a:hover {
 }
 
 
+#student_cards .card {
+  width: 16rem;
+  height: 16rem;
+}
 
+#form-div {
+  width: 80%;
+}
+
+#total {
+  color:#1F60B6;
+  background-color: #bdd4ec;
+  height: 50px;
+  font-size: large;
+  padding: 10px;
+}
+
+
+.red {
+  color: red;
+}
