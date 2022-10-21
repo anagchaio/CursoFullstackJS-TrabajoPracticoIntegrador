@@ -7,7 +7,7 @@ header.innerHTML = `<ul class="navbar-nav navbar-expand-lg text-light bg-dark">
   </a>
 </li>
 <li class="nav-item  my-auto mx-lg-2">
-  <a href="home.html" class="nav-link h3 text-white">Conf Bs As</a>
+  <a href="index.html" class="nav-link h3 text-white">Conf Bs As</a>
 </li>
 <li class="nav-item  my-auto mx-auto"></li>
 </li>
