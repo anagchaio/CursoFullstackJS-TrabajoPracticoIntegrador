@@ -15,13 +15,13 @@ header.innerHTML = `<ul class="navbar-nav navbar-expand-lg text-light bg-dark">
   <a href="#" class="nav-link">La conferencia</a>
 </li>
 <li class="nav-item  my-auto mx-lg-2">
-  <a href="#cards" class="nav-link">Los oradores</a>
+  <a href="index.html#cards" class="nav-link">Los oradores</a>
 </li>
 <li class="nav-item  my-auto mx-lg-2">
-  <a href="#beach" class="nav-link">El lugar y la fecha</a>
+  <a href="index.html#beach" class="nav-link">El lugar y la fecha</a>
 </li>
 <li class="nav-item  my-auto mx-lg-2">
-  <a href="#registration" class="nav-link">Conviértete en orador</a>
+  <a href="index.html#registration" class="nav-link">Conviértete en orador</a>
 </li>
 <li class="nav-item  my-auto mx-lg-2 mr-lg-5">
   <a href="ticket.html" id="link_comprarTickets" class="nav-link">Comprar Tickets</a>
